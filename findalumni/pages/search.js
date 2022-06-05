@@ -1,5 +1,5 @@
-import { useState, useEffect } from "react";
 const d3 = require("d3-sparql");
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Card from "../Components/Card";

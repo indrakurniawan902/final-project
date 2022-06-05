@@ -17,7 +17,7 @@ function Card({ kelas, tag, nama, onClick }) {
             <p className="font-semibold text-base leading-[20px] text-elipsis-2">{kelas}</p>
             <div className="flex gap-2">
                 <CgProfile size={20} className="text-blue-dark flex-shrink-0" />
-                <p className="nama text-sm font-light text-grey-3 text-elipsis-1">{nama}</p>
+                <p className="nama text-sm font-bold text-b-1 text-elipsis-1">{nama}</p>
             </div>
         </div>
     );
